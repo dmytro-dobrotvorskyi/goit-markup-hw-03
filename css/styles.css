@@ -63,7 +63,7 @@ p {
 .logo {
   display: flex;
   align-items: center;
-
+  margin-right: 76px;
   padding: 24px 0;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -75,7 +75,6 @@ p {
 }
 .header-logo .logo-part {
   color: #2e2f42;
-  margin-right: 76px;
 }
 .nav-list {
   display: flex;
@@ -332,6 +331,10 @@ p {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.page-footer .logo {
+  margin-right: 0;
 }
 
 .footer-text {
